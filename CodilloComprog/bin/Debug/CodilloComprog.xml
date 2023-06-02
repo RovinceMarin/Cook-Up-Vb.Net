@@ -1,0 +1,816 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CodilloComprog
+</name>
+</assembly>
+<members>
+<member name="T:CodilloComprog.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources._exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.adobo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.adobo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.adobo2">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Almond_Cherry_Smoothie">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Arista">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Avocado_Coconut_Smoothie">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.backgrouunddessert">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.backgroynddrinks">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.backgroyndfoods">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.baked_mac__1_">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.bakery">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Banana_Smoothie">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Basil_Pork_Belly">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.beef_kushiyaki">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.beef_rolls">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Beef_with__Broccoli">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.beef_yakitori">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.bicol_express">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Bistek">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.black_forest">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.black_forest__1_">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Bossam">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.brownies">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.bubble_tea">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.bulgogi">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.bulgogi1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.butamaki">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.caesar">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.cake">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.caramel_bar">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.carbonara">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Carrot_Cake">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Carrot_Juice">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Chef_Hat_cooking_logo_template_removebg_preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.chickadobo">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.chickafritada">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.chicken">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.chicken_alfredo">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.chicken_curry">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.chicken_florentine">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.chicken_leg___Copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.chicken_tempura">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.chicken_teriyaki">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.chocolate">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Chocolate_Cake">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.chopseuy">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.coffee_crumble">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.cookies">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.cookies_and__cream">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.CookUp">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.cumin_crusted_porkchops">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.curry">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.curry__1_">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.cutlery">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.cutlery1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.dessert">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.dol_sot_bi_bim_bap">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Dragon_fruit_Smoothie">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.drink">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.dukkah_spiced_porkchops">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.dwaeji_galbi">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.fatteh">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.foods">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.fried_kangkong">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.galbi">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Garlic_Pepper_pork">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.grilled_beef_short_ribs">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.gyoza">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Harissa_Porkchop">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.ice_cream">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.icons8_beef_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.icons8_ellipsis_90">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.icons8_meat_100">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.italian_amrican">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.italian_amrican1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.japanese_chicken">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.japchae">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.jeyuk_bokkeum">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.jokbal">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.kakuni">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.kalbi">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Kaldereta">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.kaldereta1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Kao_moo_dang">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.karaage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.karaage1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.kare_kare">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.kebab">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.korean_style_chicken">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.larb">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.lasagna">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.lechon_kawali">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Lemon_Juice">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.list">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.macaroni_salad">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.maiale_ubriaco">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.mandi">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.mango">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.mango_cake">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.mansaf">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.marsala">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Mechado">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.menudo">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.middle_east_chicken">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.minced_beef">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.moo_ping">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Morcon">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.nikujaga">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Nilaga">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Orange_Juice1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.oyakodon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.oyakodon1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.pad_kra_pao">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.pad_thai">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.pampanella">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.parmesan">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.people">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.piccata">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Pineapple_Smoothie">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Pineapple_Vodka_Cocktail">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Porchetta">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Pork_and_persimmon">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Pork_involtini">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Pork_Lombardy">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.pork_steak">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Raspberry_Lime_Vodka_Cocktail">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.satay">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.shawarma">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.shogayaki">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.sinigang">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.smoothie">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.spag">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.spaguetti">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.strawberry">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Strawberry_Cake">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Strawberry_Smoothie">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.sukiyaki">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.suyuk">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.tahini_dressed_pork">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.tempura">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Teriyaki">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.thai_style_chicken">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.tinola">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.tom_kha_gai">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.tom_yum">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.tonkatsu">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.tuna_pasta">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.ube_cake">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.vanilla">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.vegetables">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.water_glass">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Watermelon_Tequila_Cocktail">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.wine_bottle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.yakiton">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.yakitori">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.yakitori1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:CodilloComprog.My.Resources.Resources.Za_atar_Pork_Tenderloin">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7ED5AE52-6687-4FE0-AFF1-DC30478B9A34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CodilloComprog.My.MyApplication</StartupObject>
+    <RootNamespace>CodilloComprog</RootNamespace>
+    <AssemblyName>CodilloComprog</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\CookUP!!! 2.0\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CodilloComprog.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CodilloComprog.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>53B51EE07889118AD1AD5D69C23C8BAB76AE12F3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CodilloComprog_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.Designer.vb">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeefForm.Designer.vb">
+      <DependentUpon>BeefForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BeefForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cake.Designer.vb">
+      <DependentUpon>Cake.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cake.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChickenForm.Designer.vb">
+      <DependentUpon>ChickenForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChickenForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cocktail.Designer.vb">
+      <DependentUpon>cocktail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cocktail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DessertForm.Designer.vb">
+      <DependentUpon>DessertForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DessertForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DrinksFormvb.Designer.vb">
+      <DependentUpon>DrinksFormvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DrinksFormvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilipinoBeef.Designer.vb">
+      <DependentUpon>FilipinoBeef.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FilipinoBeef.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilipinoChicken.Designer.vb">
+      <DependentUpon>FilipinoChicken.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FilipinoChicken.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilipinoPork.Designer.vb">
+      <DependentUpon>FilipinoPork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FilipinoPork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodsForm.Designer.vb">
+      <DependentUpon>FoodsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FoodsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ice Cream.Designer.vb">
+      <DependentUpon>Ice Cream.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ice Cream.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItalianChicken.Designer.vb">
+      <DependentUpon>ItalianChicken.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItalianChicken.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItalianPork.Designer.vb">
+      <DependentUpon>ItalianPork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ItalianPork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JapaneseBeef.Designer.vb">
+      <DependentUpon>JapaneseBeef.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JapaneseBeef.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JapaneseChicken.Designer.vb">
+      <DependentUpon>JapaneseChicken.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JapaneseChicken.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JapanesePork.Designer.vb">
+      <DependentUpon>JapanesePork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JapanesePork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Juice.Designer.vb">
+      <DependentUpon>Juice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Juice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KoreanBeef.Designer.vb">
+      <DependentUpon>KoreanBeef.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KoreanBeef.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KoreanPork.Designer.vb">
+      <DependentUpon>KoreanPork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KoreanPork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiddleChicken.Designer.vb">
+      <DependentUpon>MiddleChicken.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MiddleChicken.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MiddlePork.Designer.vb">
+      <DependentUpon>MiddlePork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MiddlePork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyListForm.Designer.vb">
+      <DependentUpon>MyListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PastaForm.Designer.vb">
+      <DependentUpon>PastaForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PastaForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pastries.Designer.vb">
+      <DependentUpon>pastries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pastries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pdfviewer.Designer.vb">
+      <DependentUpon>pdfviewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pdfviewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PorkForm.Designer.vb">
+      <DependentUpon>PorkForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PorkForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegForm.Designer.vb">
+      <DependentUpon>RegForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="smoothies.Designer.vb">
+      <DependentUpon>smoothies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="smoothies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThaiChicken.Designer.vb">
+      <DependentUpon>ThaiChicken.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ThaiChicken.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThaiPork.Designer.vb">
+      <DependentUpon>ThaiPork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ThaiPork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VeggiesForm.Designer.vb">
+      <DependentUpon>VeggiesForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VeggiesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeefForm.resx">
+      <DependentUpon>BeefForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cake.resx">
+      <DependentUpon>Cake.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChickenForm.resx">
+      <DependentUpon>ChickenForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cocktail.resx">
+      <DependentUpon>cocktail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DessertForm.resx">
+      <DependentUpon>DessertForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DrinksFormvb.resx">
+      <DependentUpon>DrinksFormvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilipinoBeef.resx">
+      <DependentUpon>FilipinoBeef.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilipinoChicken.resx">
+      <DependentUpon>FilipinoChicken.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilipinoPork.resx">
+      <DependentUpon>FilipinoPork.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodsForm.resx">
+      <DependentUpon>FoodsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ice Cream.resx">
+      <DependentUpon>Ice Cream.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItalianChicken.resx">
+      <DependentUpon>ItalianChicken.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItalianPork.resx">
+      <DependentUpon>ItalianPork.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JapaneseBeef.resx">
+      <DependentUpon>JapaneseBeef.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JapaneseChicken.resx">
+      <DependentUpon>JapaneseChicken.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JapanesePork.resx">
+      <DependentUpon>JapanesePork.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Juice.resx">
+      <DependentUpon>Juice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KoreanBeef.resx">
+      <DependentUpon>KoreanBeef.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KoreanPork.resx">
+      <DependentUpon>KoreanPork.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiddleChicken.resx">
+      <DependentUpon>MiddleChicken.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiddlePork.resx">
+      <DependentUpon>MiddlePork.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyListForm.resx">
+      <DependentUpon>MyListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PastaForm.resx">
+      <DependentUpon>PastaForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pastries.resx">
+      <DependentUpon>pastries.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pdfviewer.resx">
+      <DependentUpon>pdfviewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PorkForm.resx">
+      <DependentUpon>PorkForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegForm.resx">
+      <DependentUpon>RegForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="smoothies.resx">
+      <DependentUpon>smoothies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThaiChicken.resx">
+      <DependentUpon>ThaiChicken.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThaiPork.resx">
+      <DependentUpon>ThaiPork.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VeggiesForm.resx">
+      <DependentUpon>VeggiesForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CodilloComprog_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Resources\Almond-Cherry-Smoothie.pdf" />
+    <None Include="Resources\Avocado-Coconut-Smoothie.pdf" />
+    <None Include="Resources\Banana-Smoothie.pdf" />
+    <None Include="Resources\Carrot-Juice.pdf" />
+    <None Include="Resources\chickadobo.pdf" />
+    <None Include="Resources\chickafritada.pdf" />
+    <None Include="Resources\chicken alfredo.pdf" />
+    <None Include="Resources\COMPROG\beef\beef kushiyaki.pdf" />
+    <None Include="Resources\COMPROG\beef\beef rolls.pdf" />
+    <None Include="Resources\COMPROG\beef\Beef with  Broccoli.pdf" />
+    <None Include="Resources\COMPROG\beef\beef yakitori.pdf" />
+    <None Include="Resources\COMPROG\beef\Bistek.pdf" />
+    <None Include="Resources\COMPROG\beef\bulgogi.pdf" />
+    <None Include="Resources\COMPROG\beef\dol sot bi bim bap.pdf" />
+    <None Include="Resources\COMPROG\beef\galbi.pdf" />
+    <None Include="Resources\COMPROG\beef\grilled beef short ribs.pdf" />
+    <None Include="Resources\COMPROG\beef\japchae.pdf" />
+    <None Include="Resources\COMPROG\beef\kalbi.pdf" />
+    <None Include="Resources\COMPROG\beef\Kaldereta.pdf" />
+    <None Include="Resources\COMPROG\beef\Mechado.pdf" />
+    <None Include="Resources\COMPROG\beef\minced beef.pdf" />
+    <None Include="Resources\COMPROG\beef\Morcon.pdf" />
+    <None Include="Resources\COMPROG\beef\nikujaga.pdf" />
+    <None Include="Resources\COMPROG\beef\Nilaga.pdf" />
+    <None Include="Resources\COMPROG\beef\sukiyaki.pdf" />
+    <None Include="Resources\COMPROG\cakes\black forest %281%29.pdf" />
+    <None Include="Resources\COMPROG\cakes\black forest.pdf" />
+    <None Include="Resources\COMPROG\cakes\Carrot Cake.pdf" />
+    <None Include="Resources\COMPROG\cakes\Chocolate Cake.pdf" />
+    <None Include="Resources\COMPROG\cakes\mango cake.pdf" />
+    <None Include="Resources\COMPROG\cakes\Strawberry Cake.pdf" />
+    <None Include="Resources\COMPROG\cakes\ube cake.pdf" />
+    <None Include="Resources\COMPROG\icecream\chocolate.pdf" />
+    <None Include="Resources\COMPROG\icecream\coffee crumble.pdf" />
+    <None Include="Resources\COMPROG\icecream\cookies and  cream.pdf" />
+    <None Include="Resources\COMPROG\icecream\mango.pdf" />
+    <None Include="Resources\COMPROG\icecream\strawberry.pdf" />
+    <None Include="Resources\COMPROG\icecream\vanilla.pdf" />
+    <None Include="Resources\COMPROG\Pasta\baked mac %281%29.pdf" />
+    <None Include="Resources\COMPROG\Pasta\carbonara.pdf" />
+    <None Include="Resources\COMPROG\Pasta\lasagna.pdf" />
+    <None Include="Resources\COMPROG\Pasta\macaroni salad.pdf" />
+    <None Include="Resources\COMPROG\Pasta\spag.pdf" />
+    <None Include="Resources\COMPROG\Pasta\tuna pasta.pdf" />
+    <None Include="Resources\COMPROG\pastries\brownies.pdf" />
+    <None Include="Resources\COMPROG\pastries\caramel bar.pdf" />
+    <None Include="Resources\COMPROG\pastries\cookies.pdf" />
+    <None Include="Resources\COMPROG\pork\adobo.pdf" />
+    <None Include="Resources\COMPROG\pork\Arista.pdf" />
+    <None Include="Resources\COMPROG\pork\Basil Pork Belly .pdf" />
+    <None Include="Resources\COMPROG\pork\bicol express.pdf" />
+    <None Include="Resources\COMPROG\pork\Bossam.pdf" />
+    <None Include="Resources\COMPROG\pork\bulgogi.pdf" />
+    <None Include="Resources\COMPROG\pork\butamaki.pdf" />
+    <None Include="Resources\COMPROG\pork\cumin-crusted porkchops.pdf" />
+    <None Include="Resources\COMPROG\pork\dukkah-spiced porkchops.pdf" />
+    <None Include="Resources\COMPROG\pork\dwaeji galbi.pdf" />
+    <None Include="Resources\COMPROG\pork\Garlic Pepper pork.pdf" />
+    <None Include="Resources\COMPROG\pork\gyoza.pdf" />
+    <None Include="Resources\COMPROG\pork\Harissa-Porkchop.pdf" />
+    <None Include="Resources\COMPROG\pork\jeyuk bokkeum.pdf" />
+    <None Include="Resources\COMPROG\pork\jokbal.pdf" />
+    <None Include="Resources\COMPROG\pork\kakuni.pdf" />
+    <None Include="Resources\COMPROG\pork\Kao moo dang.pdf" />
+    <None Include="Resources\COMPROG\pork\larb.pdf" />
+    <None Include="Resources\COMPROG\pork\lechon kawali.pdf" />
+    <None Include="Resources\COMPROG\pork\maiale ubriaco.pdf" />
+    <None Include="Resources\COMPROG\pork\menudo.pdf" />
+    <None Include="Resources\COMPROG\pork\moo ping.pdf" />
+    <None Include="Resources\COMPROG\pork\pad kra pao.pdf" />
+    <None Include="Resources\COMPROG\pork\pampanella.pdf" />
+    <None Include="Resources\COMPROG\pork\Porchetta.pdf" />
+    <None Include="Resources\COMPROG\pork\Pork and persimmon.pdf" />
+    <None Include="Resources\COMPROG\pork\Pork involtini.pdf" />
+    <None Include="Resources\COMPROG\pork\Pork Lombardy.pdf" />
+    <None Include="Resources\COMPROG\pork\pork steak .pdf" />
+    <None Include="Resources\COMPROG\pork\shogayaki.pdf" />
+    <None Include="Resources\COMPROG\pork\sinigang.pdf" />
+    <None Include="Resources\COMPROG\pork\suyuk.pdf" />
+    <None Include="Resources\COMPROG\pork\tahini dressed pork.pdf" />
+    <None Include="Resources\COMPROG\pork\tonkatsu.pdf" />
+    <None Include="Resources\COMPROG\pork\yakiton.pdf" />
+    <None Include="Resources\COMPROG\pork\Za_atar Pork Tenderloin.pdf" />
+    <None Include="Resources\COMPROG\Teriyaki.pdf" />
+    <None Include="Resources\COMPROG\veggies\caesar.pdf" />
+    <None Include="Resources\COMPROG\veggies\chopseuy.pdf" />
+    <None Include="Resources\COMPROG\veggies\fried kangkong.pdf" />
+    <None Include="Resources\Dragon-fruit-Smoothie.pdf" />
+    <None Include="Resources\Ibang chicken\chicken florentine.pdf" />
+    <None Include="Resources\Ibang chicken\curry %281%29.pdf" />
+    <None Include="Resources\Ibang chicken\fatteh.pdf" />
+    <None Include="Resources\Ibang chicken\kaldereta.pdf" />
+    <None Include="Resources\Ibang chicken\kare-kare.pdf" />
+    <None Include="Resources\Ibang chicken\kebab.pdf" />
+    <None Include="Resources\Ibang chicken\mandi.pdf" />
+    <None Include="Resources\Ibang chicken\mansaf.pdf" />
+    <None Include="Resources\Ibang chicken\marsala.pdf" />
+    <None Include="Resources\Ibang chicken\pad thai.pdf" />
+    <None Include="Resources\Ibang chicken\parmesan.pdf" />
+    <None Include="Resources\Ibang chicken\piccata.pdf" />
+    <None Include="Resources\Ibang chicken\satay.pdf" />
+    <None Include="Resources\Ibang chicken\shawarma.pdf" />
+    <None Include="Resources\Ibang chicken\tinola.pdf" />
+    <None Include="Resources\Ibang chicken\tom kha gai.pdf" />
+    <None Include="Resources\Ibang chicken\tom yum.pdf" />
+    <None Include="Resources\Lemon-Juice.pdf" />
+    <None Include="Resources\Orange-Juice.pdf" />
+    <None Include="Resources\Pineapple-Smoothie.pdf" />
+    <None Include="Resources\Pineapple-Vodka-Cocktail.pdf" />
+    <None Include="Resources\Raspberry-Lime-Vodka-Cocktail.pdf" />
+    <None Include="Resources\Strawberry-Smoothie.pdf" />
+    <None Include="Resources\Watermelon-Tequila-Cocktail.pdf" />
+    <None Include="Resources\yakitori.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teriyaki.pdf" />
+    <None Include="Resources\CookUp.pdf" />
+    <None Include="Resources\curry.pdf" />
+    <None Include="Resources\foods.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cutlery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cutlery1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dessert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karaage.pdf" />
+    <None Include="Resources\oyakodon.pdf" />
+    <None Include="Resources\tempura.pdf" />
+    <None Include="Resources\water-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chef_Hat_cooking_logo_template-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken-leg - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spaguetti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegetables.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-meat-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-beef-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ellipsis-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bubble-tea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoothie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wine-bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange-juice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ice-cream.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bakery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgrouunddessert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroynddrinks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroyndfoods.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\japanese chicken.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\korean style chicken.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\middle east chicken.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thai style chicken.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italian-amrican.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italian-amrican1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adobo.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adobo1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken teriyaki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karaage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oyakodon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken tempura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken curry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yakitori.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icons8-beef-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-beef-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foods" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foods.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chef_Hat_cooking_logo_template-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chef_Hat_cooking_logo_template-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken curry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken curry.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karaage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karaage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oyakodon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oyakodon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adobo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adobo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken tempura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken tempura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backgroynddrinks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backgroynddrinks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-ellipsis-90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-ellipsis-90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backgroyndfoods" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backgroyndfoods.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italian-amrican1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\italian-amrican1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italian-amrican" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\italian-amrican.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orange-juice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orange-juice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thai style chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thai style chicken.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ice-cream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ice-cream.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dessert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dessert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bubble-tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bubble-tea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wine-bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wine-bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middle east chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\middle east chicken.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spaguetti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spaguetti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smoothie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smoothie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cutlery1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cutlery1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adobo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adobo1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="water-glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\water-glass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="japanese chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\japanese chicken.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken-leg - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken-leg - Copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="korean style chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\korean style chicken.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegetables" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegetables.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-meat-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-meat-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cutlery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cutlery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bakery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bakery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chicken teriyaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken teriyaki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backgrouunddessert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backgrouunddessert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="people" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yakitori" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yakitori.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CookUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CookUp.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="curry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curry.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="karaage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karaage.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oyakodon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oyakodon.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tempura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tempura.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yakitori1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yakitori.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="adobo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\adobo.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Arista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\Arista.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="baked_mac__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\Pasta\baked mac (1).pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Basil_Pork_Belly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\Basil Pork Belly .pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beef_kushiyaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\beef kushiyaki.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beef_rolls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\beef rolls.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Beef_with__Broccoli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\Beef with  Broccoli.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="beef_yakitori" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\beef yakitori.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bicol_express" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\bicol express.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Bistek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\Bistek.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="black_forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\cakes\black forest.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="black_forest__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\cakes\black forest (1).pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Bossam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\Bossam.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="brownies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pastries\brownies.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bulgogi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\bulgogi.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bulgogi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\bulgogi.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="butamaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\butamaki.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="caesar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\veggies\caesar.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="caramel_bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pastries\caramel bar.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="carbonara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\Pasta\carbonara.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Carrot_Cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\cakes\Carrot Cake.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chocolate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\icecream\chocolate.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Chocolate_Cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\cakes\Chocolate Cake.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chopseuy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\veggies\chopseuy.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="coffee_crumble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\icecream\coffee crumble.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cookies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pastries\cookies.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cookies_and__cream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\icecream\cookies and  cream.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cumin_crusted_porkchops" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\cumin-crusted porkchops.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dol_sot_bi_bim_bap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\dol sot bi bim bap.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dukkah_spiced_porkchops" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\dukkah-spiced porkchops.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dwaeji_galbi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\dwaeji galbi.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fried_kangkong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\veggies\fried kangkong.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="galbi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\galbi.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Garlic_Pepper_pork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\Garlic Pepper pork.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grilled_beef_short_ribs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\grilled beef short ribs.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gyoza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\gyoza.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Harissa_Porkchop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\Harissa-Porkchop.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="japchae" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\japchae.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="jeyuk_bokkeum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\jeyuk bokkeum.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="jokbal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\jokbal.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kakuni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\kakuni.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kalbi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\kalbi.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Kaldereta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\Kaldereta.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Kao_moo_dang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\Kao moo dang.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="larb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\larb.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lasagna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\Pasta\lasagna.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lechon_kawali" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\lechon kawali.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="macaroni_salad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\Pasta\macaroni salad.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="maiale_ubriaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\maiale ubriaco.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mango" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\icecream\mango.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mango_cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\cakes\mango cake.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mechado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\Mechado.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menudo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\menudo.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="minced_beef" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\minced beef.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="moo_ping" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\moo ping.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Morcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\Morcon.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nikujaga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\nikujaga.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Nilaga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\Nilaga.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pad_kra_pao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\pad kra pao.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pampanella" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\pampanella.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Porchetta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\Porchetta.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pork_and_persimmon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\Pork and persimmon.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pork_involtini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\Pork involtini.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pork_Lombardy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\Pork Lombardy.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pork_steak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\pork steak .pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shogayaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\shogayaki.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sinigang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\sinigang.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\Pasta\spag.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="strawberry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\icecream\strawberry.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Strawberry_Cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\cakes\Strawberry Cake.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sukiyaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\beef\sukiyaki.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="suyuk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\suyuk.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tahini_dressed_pork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\tahini dressed pork.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Teriyaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\Teriyaki.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tonkatsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\tonkatsu.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tuna_pasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\Pasta\tuna pasta.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ube_cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\cakes\ube cake.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vanilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\icecream\vanilla.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yakiton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\yakiton.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Za_atar_Pork_Tenderloin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COMPROG\pork\Za_atar Pork Tenderloin.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chicken_florentine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\chicken florentine.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="curry__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\curry (1).pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fatteh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\fatteh.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kaldereta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\kaldereta.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kare_kare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\kare-kare.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kebab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\kebab.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mandi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\mandi.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mansaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\mansaf.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="marsala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\marsala.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pad_thai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\pad thai.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="parmesan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\parmesan.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piccata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\piccata.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="satay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\satay.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shawarma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\shawarma.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tinola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\tinola.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tom_kha_gai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\tom kha gai.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tom_yum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibang chicken\tom yum.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chickadobo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chickadobo.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chickafritada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chickafritada.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chicken_alfredo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chicken alfredo.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Avocado_Coconut_Smoothie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avocado-Coconut-Smoothie.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Banana_Smoothie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banana-Smoothie.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dragon_fruit_Smoothie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dragon-fruit-Smoothie.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pineapple_Smoothie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pineapple-Smoothie.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Strawberry_Smoothie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Strawberry-Smoothie.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Almond_Cherry_Smoothie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Almond-Cherry-Smoothie.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pineapple_Vodka_Cocktail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pineapple-Vodka-Cocktail.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Raspberry_Lime_Vodka_Cocktail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Raspberry-Lime-Vodka-Cocktail.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Watermelon_Tequila_Cocktail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Watermelon-Tequila-Cocktail.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Carrot_Juice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Carrot-Juice.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Lemon_Juice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lemon-Juice.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Orange_Juice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Orange-Juice.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Orange_Juice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Orange-Juice.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

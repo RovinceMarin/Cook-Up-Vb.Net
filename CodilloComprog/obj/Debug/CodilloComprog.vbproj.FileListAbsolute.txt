@@ -1,0 +1,105 @@
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\bin\Debug\CodilloComprog.exe.config
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\bin\Debug\CodilloComprog.exe
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\bin\Debug\CodilloComprog.pdb
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\bin\Debug\CodilloComprog.xml
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.vbprojAssemblyReference.cache
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.ChickenForm.resources
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.DessertForm.resources
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.DrinksFormvb.resources
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.FoodsForm.resources
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.Form1.resources
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.JapansesStyle.resources
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.Resources.resources
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.MyListForm.resources
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.vbproj.GenerateResource.cache
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.vbproj.CoreCompileInputs.cache
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.exe
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.xml
+C:\Users\Drix\source\repos\CodilloComprog\CodilloComprog\obj\Debug\CodilloComprog.pdb
+E:\Cook Up!\CodilloComprog\bin\Debug\CodilloComprog.exe.config
+E:\Cook Up!\CodilloComprog\bin\Debug\CodilloComprog.exe
+E:\Cook Up!\CodilloComprog\bin\Debug\CodilloComprog.pdb
+E:\Cook Up!\CodilloComprog\bin\Debug\CodilloComprog.xml
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.vbproj.AssemblyReference.cache
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.Cake.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.ChickenForm.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.cocktail.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.DessertForm.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.DrinksFormvb.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.FoodsForm.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.Form1.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.Ice_Cream.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.Juice.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.MilkTea.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.Resources.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.MyListForm.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.pastries.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.smoothies.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.wine.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.vbproj.GenerateResource.cache
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.vbproj.CoreCompileInputs.cache
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.exe
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.xml
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.pdb
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.JapaneseChicken.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.FilipinoChicken.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.ItalianChicken.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.KoreanChicken.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.MiddleChicken.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.ThaiChicken.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.PastaForm.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.VeggiesForm.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.BeefForm.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.PorkForm.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.LoginForm.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.RegForm.resources
+E:\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.AboutForm.resources
+E:\backup\Cook Up!\CodilloComprog\bin\Debug\CodilloComprog.exe.config
+E:\backup\Cook Up!\CodilloComprog\bin\Debug\CodilloComprog.exe.manifest
+E:\backup\Cook Up!\CodilloComprog\bin\Debug\CodilloComprog.application
+E:\backup\Cook Up!\CodilloComprog\bin\Debug\CodilloComprog.exe
+E:\backup\Cook Up!\CodilloComprog\bin\Debug\CodilloComprog.pdb
+E:\backup\Cook Up!\CodilloComprog\bin\Debug\CodilloComprog.xml
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.AboutForm.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.BeefForm.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.Cake.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.ChickenForm.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.cocktail.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.DessertForm.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.DrinksFormvb.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.FilipinoBeef.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.FilipinoChicken.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.FilipinoPork.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.FoodsForm.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.Form1.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.Ice_Cream.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.ItalianChicken.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.ItalianPork.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.JapaneseBeef.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.JapaneseChicken.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.JapanesePork.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.Juice.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.KoreanBeef.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.KoreanPork.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.LoginForm.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.MiddleChicken.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.MiddlePork.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.Resources.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.MyListForm.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.PastaForm.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.pastries.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.pdfviewer.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.PorkForm.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.RegForm.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.smoothies.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.ThaiChicken.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.ThaiPork.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.VeggiesForm.resources
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.vbproj.GenerateResource.cache
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.vbproj.CoreCompileInputs.cache
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.exe.manifest
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.application
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.exe
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.xml
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.pdb
+E:\backup\Cook Up!\CodilloComprog\obj\Debug\CodilloComprog.vbproj.AssemblyReference.cache
